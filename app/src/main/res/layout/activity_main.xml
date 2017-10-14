@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.daffa.project040917.main">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/xrpl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelas X RPL"/>
+
+        <RadioButton
+            android:id="@+id/xtkj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelas X TKJ"/>
+
+        <RadioButton
+            android:id="@+id/xirpl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelas XI RPL"/>
+
+        <RadioButton
+            android:id="@+id/xitkj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelas XI TKJ"/>
+
+        <RadioButton
+            android:id="@+id/xiirpl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelas XII RPL"/>
+
+        <RadioButton
+            android:id="@+id/xiitkj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelas XII TKJ"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/bvld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Validasi"/>
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/bclr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"/>
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/bsnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hsl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:text="Hasil..."/>
+
+</LinearLayout>
